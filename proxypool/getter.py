@@ -7,6 +7,7 @@ import sys
 class Getter():
     def __init__(self):
         self.redis = RedisClient()
+        self.redis_private = RedisClient(db=1)
         self.crawler = Crawler()
     
     def is_over_threshold(self):
@@ -28,3 +29,4 @@ class Getter():
                 sys.stdout.flush()
                 for proxy in proxies:
                     self.redis.add(proxy)
+                    self.redis_private.add(proxy)
