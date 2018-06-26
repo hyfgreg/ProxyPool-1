@@ -5,7 +5,7 @@ REDIS_HOST = '127.0.0.1'
 REDIS_PORT = 6379
 
 # Redis密码，如无填None
-REDIS_PASSWORD = None
+REDIS_PASSWORD = 'redisredis'
 
 REDIS_KEY = 'proxies'
 
@@ -22,7 +22,7 @@ POOL_UPPER_THRESHOLD = 50000
 # 检查周期
 TESTER_CYCLE = 20
 # 获取周期
-GETTER_CYCLE = 300*5
+GETTER_CYCLE = 300
 
 # 测试API，建议抓哪个网站测哪个
 TEST_URL = 'http://shop.mogujie.com/detail/1ls4xbe'
