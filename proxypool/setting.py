@@ -22,10 +22,10 @@ POOL_UPPER_THRESHOLD = 50000
 # 检查周期
 TESTER_CYCLE = 20
 # 获取周期
-GETTER_CYCLE = 300
+GETTER_CYCLE = 300*5
 
 # 测试API，建议抓哪个网站测哪个
-TEST_URL = 'http://www.baidu.com'
+TEST_URL = 'http://shop.mogujie.com/detail/1ls4xbe'
 
 # API配置
 API_HOST = '0.0.0.0'
